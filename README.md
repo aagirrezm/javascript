@@ -11,5 +11,9 @@ Firefox WEB console: Scratchpad: https://developer.mozilla.org/en-US/docs/Tools/
 ## Grammar and types
 TODO
 
+##Others
+- https://angularjs.org/
+- https://facebook.github.io/react/
+
 
 
