@@ -12,6 +12,7 @@ Firefox WEB console: Scratchpad: https://developer.mozilla.org/en-US/docs/Tools/
 TODO
 
 ##Others
+- https://jquery.org/
 - https://angularjs.org/
 - https://facebook.github.io/react/
 
