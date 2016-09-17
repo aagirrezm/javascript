@@ -15,6 +15,8 @@ TODO
 - https://jquery.org/
 - https://angularjs.org/
 - https://facebook.github.io/react/
+- http://electron.atom.io/
+- https://developer.chrome.com/apps/about_apps
 
 
 
