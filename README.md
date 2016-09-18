@@ -9,7 +9,12 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
 
 Firefox WEB console: Scratchpad: https://developer.mozilla.org/en-US/docs/Tools/Scratchpad
 ## Grammar and types
-TODO
+
+Declarations:
+There are three kinds of declarations in JavaScript.
+**var**:Declares a variable, optionally initializing it to a value.
+**let**:Declares a block scope local variable, optionally initializing it to a value.
+**const**:Declares a read-only named constant.
 
 ##Others
 - https://jquery.org/
