@@ -3,7 +3,10 @@
 ## Doc
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
-
+## IDE
+- SublimeText:
+ - https://www.sitepoint.com/essential-sublime-text-javascript-plugins/
+ 
 ##Introduction
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
 
