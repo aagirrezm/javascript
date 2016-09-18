@@ -3,7 +3,10 @@
 ## Doc
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
-
+## IDE
+- SublimeText:
+ - https://www.sitepoint.com/essential-sublime-text-javascript-plugins/
+ 
 ##Introduction
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
 
@@ -31,6 +34,7 @@ Firefox WEB console: Scratchpad: https://developer.mozilla.org/en-US/docs/Tools/
 - https://developer.chrome.com/devtools
 - https://atom.io/
 - https://www.sublimetext.com/
+- https://www.sitepoint.com/essential-sublime-text-javascript-plugins/
 - http://ionicframework.com/
 - http://phonegap.com/
 - https://cordova.apache.org/
