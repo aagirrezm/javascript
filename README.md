@@ -32,6 +32,9 @@ Firefox WEB console: Scratchpad: https://developer.mozilla.org/en-US/docs/Tools/
 - http://ionicframework.com/
 - http://phonegap.com/
 - https://cordova.apache.org/
-
+- https://www.smashingmagazine.com
+- https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/
+- http://blog.ionic.io/service-workers-revolution-against-the-network/
+- https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
 
 
