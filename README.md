@@ -37,5 +37,6 @@ Firefox WEB console: Scratchpad: https://developer.mozilla.org/en-US/docs/Tools/
 - http://blog.ionic.io/service-workers-revolution-against-the-network/
 - https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
 - https://codepen.io
+- https://github.com/getify/You-Dont-Know-JS
 
 
