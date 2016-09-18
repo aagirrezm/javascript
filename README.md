@@ -18,6 +18,11 @@ TODO
 - https://facebook.github.io/react/
 - http://electron.atom.io/
 - https://developer.chrome.com/apps/about_apps
+- http://yeoman.io/
+- http://gruntjs.com/
+- https://bower.io/
+- https://www.npmjs.com/
+- https://nodejs.org
 
 
 
