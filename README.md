@@ -55,5 +55,7 @@ Firefox WEB console: Scratchpad: https://developer.mozilla.org/en-US/docs/Tools/
 - https://qunitjs.com/
 - http://www.w3schools.com/css/css3_flexbox.asp
 - http://developer.telerik.com/featured/what-to-expect-from-javascript-in-2016-frameworks/
+- http://noeticforce.com/mobile-app-development-cordova-vs-react-native-vs-xamarin
+- 
  
 
