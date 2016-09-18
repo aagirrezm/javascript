@@ -38,5 +38,7 @@ Firefox WEB console: Scratchpad: https://developer.mozilla.org/en-US/docs/Tools/
 - https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
 - https://codepen.io
 - https://github.com/getify/You-Dont-Know-JS
+- https://www.sitepoint.com/object-oriented-javascript-deep-dive-es6-classes/
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 
 
