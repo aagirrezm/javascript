@@ -29,6 +29,9 @@ Firefox WEB console: Scratchpad: https://developer.mozilla.org/en-US/docs/Tools/
 - https://www.npmjs.com/
 - https://nodejs.org
 - https://developer.chrome.com/devtools
+- http://ionicframework.com/
+- http://phonegap.com/
+- https://cordova.apache.org/
 
 
 
