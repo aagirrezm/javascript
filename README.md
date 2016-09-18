@@ -48,5 +48,8 @@ Firefox WEB console: Scratchpad: https://developer.mozilla.org/en-US/docs/Tools/
 - https://lodash.com/
 - http://momentjs.com/
 - http://redux.js.org/
-
+- http://jasmine.github.io/
+- https://mochajs.org/
+- https://qunitjs.com/
+- http://www.w3schools.com/css/css3_flexbox.asp
 
