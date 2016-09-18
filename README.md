@@ -40,5 +40,6 @@ Firefox WEB console: Scratchpad: https://developer.mozilla.org/en-US/docs/Tools/
 - https://github.com/getify/You-Dont-Know-JS
 - https://www.sitepoint.com/object-oriented-javascript-deep-dive-es6-classes/
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+- http://kangax.github.io/compat-table/es6/
 
 
