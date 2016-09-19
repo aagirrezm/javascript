@@ -3,6 +3,8 @@
 ## Doc
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
+- https://developer.mozilla.org/en-US/docs/Web
+- https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
 ## IDE
 - SublimeText:
  - https://www.sitepoint.com/essential-sublime-text-javascript-plugins/
