@@ -67,5 +67,7 @@ Firefox WEB console: Scratchpad: https://developer.mozilla.org/en-US/docs/Tools/
 - https://pouchdb.com/
 - http://couchdb.apache.org/
 - http://todomvc.com/
+- https://www.w3.org/TR/IndexedDB/
+- https://www.w3.org/TR/webdatabase/
  
 
