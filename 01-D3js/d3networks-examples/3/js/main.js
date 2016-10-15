@@ -9,8 +9,13 @@ var links = [
   {"source": 0, "target": 2}
 ];
 
-// var forceLayout = d3.layout.force();
-var forceLayout = d3.layout.force().size([800, 600]).on('tick', update);
+var forceLayout = d3.layout.force();
+
+forceLayout
+  .size([800, 600])
+  .charge(-1000)
+  .linkDistance(100)
+  .on('tick', update);
 
 
 function createNodes() {
