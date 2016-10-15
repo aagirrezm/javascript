@@ -3,6 +3,10 @@
 ## Doc
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
+- https://developer.mozilla.org/en-US/docs/Web
+- https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
+
+- ES2015:ES6:Babel. https://babeljs.io/
 ## IDE
 - SublimeText:
  - https://www.sitepoint.com/essential-sublime-text-javascript-plugins/
@@ -61,5 +65,11 @@ Firefox WEB console: Scratchpad: https://developer.mozilla.org/en-US/docs/Tools/
 - http://developer.telerik.com/featured/what-to-expect-from-javascript-in-2016-frameworks/
 - http://noeticforce.com/mobile-app-development-cordova-vs-react-native-vs-xamarin
 - http://developer.telerik.com/featured/what-to-expect-from-javascript-in-2016-frameworks/
+- The Javascript Handbook 2016
+- https://pouchdb.com/
+- http://couchdb.apache.org/
+- http://todomvc.com/
+- https://www.w3.org/TR/IndexedDB/
+- https://www.w3.org/TR/webdatabase/
  
 
