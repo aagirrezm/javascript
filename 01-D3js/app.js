@@ -64,12 +64,17 @@ d3.json("./data.json", function(err, json) {
 
 	// cahange line style dynamically 
 	//d3.selectAll('line').style("stroke-dasharray","1,3,1");
-	d3.selectAll('line').style("stroke-dasharray",function(d) {
+	d3.selectAll('line').style('stroke-dasharray',function(d) {
 		if (d.source.age < 18 && d.target.age < 18) {
-			return "1,3,1";
+			return '1,3,1';
 		} else {
-			return "0,0,0";
+			return '0,0,0';
 		}
+	});
+
+	// if is under-age change style
+	d3.selectAll('circle').style('fill', function(d){
+		if (d.age < 18) return '#ff6ac2';
 	});
 });
 
