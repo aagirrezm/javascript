@@ -1,0 +1,17 @@
+{
+	"nodes": 
+	[
+		{"name" : "Miles", "age": 16},
+  		{"name": "John", "age": 34},
+  		{"name": "Thelonious", "age": 65},
+  		{"name": "Koxme", "age": 25},
+  		{"name": "Peru", "age": 24}
+	],
+	"links": 
+	[
+  		{"source": 0, "target": 1},
+  		{"source": 0, "target": 2},
+  		{"source": 1, "target": 2},
+  		{"source": 3, "target": 4}
+	]
+}
