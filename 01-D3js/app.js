@@ -1,59 +1,66 @@
-var nodes = [
-  {"name" : "Miles"},
-  {"name": "John"},
-  {"name": "Thelonious"}
-];
+// var nodes = [
+//   {"name" : "Miles", "age": 16},
+//   {"name": "John", "age": 34},
+//   {"name": "Thelonious", "age": 65}
+// ];
 
-var links = [
-  {"source": 0, "target": 1},
-  {"source": 0, "target": 2}
-];
-
-// var forceLayout = d3.layout.force();
-var forceLayout = d3.layout.force()
-	.size([800, 600])
-  	.charge(-1000)
-  	.linkDistance(100)
-	.on('tick', update);
+// var links = [
+//   {"source": 0, "target": 1},
+//   {"source": 0, "target": 2}
+// ];
 
 
-function createNodes() {
-  d3.select('svg')
-    .selectAll('line')
-    .data(links)
-    .enter()
-    .append('line');
+d3.json("./data.json", function(err, json) {
 
-  d3.select('svg')
-    .selectAll('circle')
-    .data(nodes)
-    .enter()
-    .append('circle')
-    .attr('r', 10)
-    .on('mouseover', function(d) {
-    	console.log(d.name);
-    });
-}
+	var forceLayout = d3.layout.force()
+		.size([800, 600])
+	  	.charge(-1000)
+	  	.linkDistance(100)
+		.on('tick', update);
 
 
-function update() {
-  d3.select('svg')
-    .selectAll('line')
-    .attr('x1', function(d) {return d.source.x;})
-    .attr('y1', function(d) {return d.source.y;})
-    .attr('x2', function(d) {return d.target.x;})
-    .attr('y2', function(d) {return d.target.y;});
+	function createNodes() {
+	  d3.select('svg')
+	    .selectAll('line')
+	    .data(json.links)
+	    .enter()
+	    .append('line');
 
-  d3.select('svg')
-    .selectAll('circle')
-    .attr('cx', function(d) {return d.x;})
-    .attr('cy', function(d) {return d.y;});
-}
+	  d3.select('svg')
+	    .selectAll('circle')
+	    .data(json.nodes)
+	    .enter()
+	    .append('circle')
+	    .attr('r', 10)
+	    .on('mouseover', function(d) {
+	    	d3.select('.info').text(d.name + ". Age: " + d.age);
+	    	console.log(d.name);
+	    });
+	}
 
-createNodes();
 
-forceLayout
-  .nodes(nodes)
-  .links(links);
+	function update() {
+	  d3.select('svg')
+	    .selectAll('line')
+	    .attr('x1', function(d) {return d.source.x;})
+	    .attr('y1', function(d) {return d.source.y;})
+	    .attr('x2', function(d) {return d.target.x;})
+	    .attr('y2', function(d) {return d.target.y;});
 
-forceLayout.start();
+	  d3.select('svg')
+	    .selectAll('circle')
+	    .attr('cx', function(d) {return d.x;})
+	    .attr('cy', function(d) {return d.y;});
+	}
+
+	createNodes();
+
+	forceLayout
+	  .nodes(json.nodes)
+	  .links(json.links);
+
+	forceLayout.start();
+
+
+});
+
