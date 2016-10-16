@@ -5,6 +5,7 @@
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
 - https://developer.mozilla.org/en-US/docs/Web
 - https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
+- Book: http://eloquentjavascript.net/
 
 - ES2015:ES6:Babel. https://babeljs.io/
 ## IDE
