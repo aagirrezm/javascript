@@ -10,7 +10,11 @@ var links = [
 ];
 
 // var forceLayout = d3.layout.force();
-var forceLayout = d3.layout.force().size([800, 600]).on('tick', update);
+var forceLayout = d3.layout.force()
+	.size([800, 600])
+  	.charge(-1000)
+  	.linkDistance(100)
+	.on('tick', update);
 
 
 function createNodes() {
@@ -25,7 +29,10 @@ function createNodes() {
     .data(nodes)
     .enter()
     .append('circle')
-    .attr('r', 5);
+    .attr('r', 10)
+    .on('mouseover', function(d) {
+    	console.log(d.name);
+    });
 }
 
 
