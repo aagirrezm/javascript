@@ -62,6 +62,7 @@ d3.json("./data.json", function(err, json) {
 
 	forceLayout.start();
 
-
+	// cahange line style dynamically 
+	//d3.selectAll('line').style("stroke-dasharray","1,3,1");
 });
 
