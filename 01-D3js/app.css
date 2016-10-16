@@ -1,7 +1,7 @@
 line {
 	stroke: #33dace;
 	stroke-width: 3.5px;
-	stroke-dasharray: 5,10,5;
+	/*stroke-dasharray: 5,10,5;*/
 }
 
 circle {

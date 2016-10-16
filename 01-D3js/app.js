@@ -64,5 +64,12 @@ d3.json("./data.json", function(err, json) {
 
 	// cahange line style dynamically 
 	//d3.selectAll('line').style("stroke-dasharray","1,3,1");
+	d3.selectAll('line').style("stroke-dasharray",function(d) {
+		if (d.source.age < 18 && d.target.age < 18) {
+			return "1,3,1";
+		} else {
+			return "0,0,0";
+		}
+	});
 });
 
