@@ -16,6 +16,7 @@ d3.json("./data.json", function(err, json) {
 		.size([800, 600])
 	  	.charge(-1000)
 	  	.linkDistance(100)
+	  	.gravity(0.2)
 		.on('tick', update);
 
 
