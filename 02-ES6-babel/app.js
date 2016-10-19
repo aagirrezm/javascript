@@ -7,6 +7,7 @@
 
 //import { getName } from 'app2';
 
+
 class Point {
     constructor(x, y) {
         this.x = x;
@@ -14,6 +15,8 @@ class Point {
     }
 }
 
+
 var p = new Point(10,20);
 
 console.log(p);
+
