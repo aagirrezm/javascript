@@ -17,5 +17,3 @@ var myvar = "my value";
   console.log(myvar); // undefined
   myvar = "local value";
 })();
-
-console.log(window.myvar);
