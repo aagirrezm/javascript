@@ -3,6 +3,7 @@
  https://github.com/Daniel15/babel-standalone
  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
+ https://nodejs.org/en/docs/es6/
 */
 
 //import { getName } from 'app2';
